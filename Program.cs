@@ -76,7 +76,7 @@ namespace CricketTeamPlayersList
                                 }
                                 else
                                 {
-                                    Console.WriteLine($"\n Player with ID {playerIdToGet} not found.");
+                                    Console.WriteLine($"\n Player with ID {playerIdToGet} is not found.");
                                 }
                             }
                             else
@@ -95,7 +95,7 @@ namespace CricketTeamPlayersList
                             }
                             else
                             {
-                                Console.WriteLine($"\n Player with Name {playerNameToGet} not found.");
+                                Console.WriteLine($"\n Player with Name {playerNameToGet} is not found.");
                             }
                             break;
 
@@ -104,7 +104,7 @@ namespace CricketTeamPlayersList
                             Console.WriteLine("Players in the team:");
                             foreach (var player in allPlayers)
                             {
-                                Console.WriteLine($"PlayerId: {player.PlayerId}, Name: {player.Name}, Age: {player.Age}");
+                                Console.WriteLine($"Id: {player.PlayerId}, Name: {player.Name}, Age: {player.Age}");
                             }
                             break;
 
